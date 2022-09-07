@@ -12,20 +12,14 @@ body {
   
 a {
   color:gray;
-  font-family: monospace;
   font-size: large;
   font-weight: bold;
-  float:left; 
-  background-color: lightblue;
-  margin: 0px 100px 50px 100px;
+  line-height: 2em;
 }
 
-
-.right {
-  
-}
-.head {
- 
+.right{
+  float:right; 
+  padding: 0px 50px 50px 50px;
   
 }
 
