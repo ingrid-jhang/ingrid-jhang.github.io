@@ -9,14 +9,14 @@ body {
   position: relative;
   margin: 0;
   padding: 5rem;
-  background-color: bisque;
-  color:orange;
-  font-family: monospace;
+  background-color: bisque; 
+  
 }
 
 
 a {
   text-decoration: none;
+  font-family: monospace;
   color:gray;
   font-size:x-large;
   font-weight: bold;
@@ -24,14 +24,14 @@ a {
 
 a:hover{
   color: #ab5821;
-
 }
+
 
 .right{
   float:right; 
   padding: 20px 50px 20px 50px;
   line-height: 2em;
-  background-color: aqua;
+  background-color: rgb(104, 207, 207);
   border-radius: 30px;
 
 }
@@ -39,31 +39,107 @@ a:hover{
 
 
 /*-----------blog---------*/
-
-
-h1 {
-  font-size : 60px;
-  line-height: 3em;
-  font-weight: bold;
-}
-.big-heading {
-  font-size: 30px;
-  text-decoration: underline;
-  line-height: 2em;
-}
-p {
-  font-size: 130%
-}
 .about-me-article {
   margin-right: 300px;
-  padding: 10px 100px 20px 10px;
+  padding: 10px 100px 50px 10px;
   line-height: 2em;
   background-color:white;
   border-radius: 30px;
-  text-align:left
-  
+  text-align:left;
+}
+
+h1 {
+  font-size : 60px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  line-height: 2em;
+  font-weight: bold;
+  color:orange;
+}
+h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  line-height: 2em;
+  color:darkslategray;
+}
+h3 {
+  font-size: 30px;
+  line-height: 2em;
+  color:darkslategray;
+  padding-left: 10px;
+
+}
+p {
+  font-size: 20px;
+  color:dimgrey;
+}
+span {
+  font-size: 12px;
+  color:rgb(47, 79, 111)
+}
+footer {
+  text-align:left;
 }
 
 
+
+@media (max-width: 480px) {
+  body {
+    position:absolute;
+    padding: 1rem;
+  }
+  .right {
+    float: top;
+    margin: 5px 100px 20px;
+    padding: 5px 30px 5px;
+    min-width: 18rem
+  }
+  .about-me-article {
+    margin: 20px 10px 50px; 
+    padding: 5px 5px 20px 10px;
+    line-height: 2em;
+    background-color:white;
+    border-radius: 30px;
+    text-align:center
+  }
+  h1 {
+    padding: 10px 20px 10px;
+    margin-bottom: 10px;
+    font-size: 29px;
+    text-align: center;
+    line-height: 1em;
+  }
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  h3 { 
+    font-size: 25px;
+    text-align: left;
+  }
+  p {
+    text-align: center;
+  }
+  img {
+    max-width: 20rem;
+  }
+  footer {
+    text-align:center
+  }
+  a { 
+    font-size: 20px;
+  }
+
+
+}
+@media (min-width: 768px) {
+  
+ 
+
+}
+@media (min-width: 1200px) {
+  
+}
+ 
 
 
