@@ -56,12 +56,15 @@ h1 {
   line-height: 2em;
   font-weight: bold;
   color:orange;
+  
 }
 h2 {
   font-size: 30px;
   text-decoration: underline;
   line-height: 2em;
   color:darkslategray;
+  background-color: rgb(192, 218, 155);
+  border-radius: 25px;
 }
 h3 {
   font-size: 30px;
@@ -84,7 +87,7 @@ footer {
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   body {
     position:absolute;
     padding: 1rem;
@@ -104,11 +107,11 @@ footer {
     text-align:center
   }
   h1 {
-    padding: 10px 20px 10px;
+    padding: 10px 20px 5px;
     margin-bottom: 10px;
-    font-size: 29px;
+    font-size: 20px;
     text-align: center;
-    line-height: 1em;
+    line-height: 0em;
   }
   h2 {
     font-size: 20px;
@@ -133,13 +136,16 @@ footer {
 
 
 }
-@media (min-width: 768px) {
-  
+@media (max-width: 600px) {
+ h1 {
+  font-size: 40px;
+  line-height: 2em;
+  margin-bottom: 10px;
+ }
  
-
 }
 @media (min-width: 1200px) {
-  
+ 
 }
  
 
