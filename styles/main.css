@@ -77,14 +77,20 @@ p {
   font-size: 20px;
   color:dimgrey;
 }
-span {
+.PS {
   font-size: 12px;
   color:rgb(47, 79, 111)
 }
 footer {
   text-align:left;
 }
-
+ul {
+  font-size: 20px;
+  color:dimgrey;
+  line-height: 2em;
+  list-style: square inside;
+  padding-top: 20px;
+}
 
 
 @media (max-width: 500px) {
@@ -145,8 +151,11 @@ footer {
  
 }
 @media (min-width: 1200px) {
- 
+.about-me-article {
+    max-width: 1140px; }
+
 }
+
  
 
 
