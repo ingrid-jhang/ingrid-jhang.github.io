@@ -101,6 +101,10 @@ ul {
   color:aliceblue
 }
 
+.DOMlink {
+  color:green;
+}
+
 footer {
   text-align:left;
 }
