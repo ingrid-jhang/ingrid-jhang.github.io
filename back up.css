@@ -8,13 +8,14 @@
 body {
   margin: 0;
   padding: 5rem;
-  background-color: rgb(63, 89, 175); 
+  background-color: bisque; 
 }
 
 
 a {
   text-decoration: none;
-  color:rgb(233, 231, 231);
+  font-family: monospace;
+  color:gray;
   font-size:x-large;
   font-weight: bold;
 }
@@ -28,7 +29,7 @@ a:hover{
   float: right;
   padding: 20px 50px 20px 50px;
   line-height: 2em;
-  background-color: rgb(61, 185, 216);
+  background-color: rgb(104, 207, 207);
   border-radius: 30px;
   min-width: 30rem;
   max-width: 50rem;
@@ -66,7 +67,7 @@ h2 {
   text-decoration: underline;
   line-height: 2em;
   color:darkslategray;
-  background-color: rgb(215, 136, 83);
+  background-color: rgb(192, 218, 155);
   border-radius: 25px;
 }
 h3 {
@@ -79,13 +80,14 @@ h3 {
 p {
   font-size: 20px;
   color:dimgrey;
-  padding-left: 15px;
 }
 .PS {
   font-size: 12px;
   color:rgb(47, 79, 111)
 }
-
+footer {
+  text-align:left;
+}
 ul {
   font-size: 20px;
   color:dimgrey;
@@ -94,16 +96,9 @@ ul {
   padding-top: 20px;
 }
 .js-image {
-  max-width: 33rem;
-}
-.example {
-  background-color: rgb(179, 98, 121);
-  color:aliceblue
+  max-width: 50rem;
 }
 
-footer {
-  text-align:left;
-}
 
 @media (max-width: 500px) {
   body {
@@ -166,3 +161,7 @@ footer {
     max-width: 1140px; }
 
 }
+
+ 
+
+
