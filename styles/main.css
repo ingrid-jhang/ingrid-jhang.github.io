@@ -93,9 +93,20 @@ ul {
   list-style: square inside;
   padding-top: 20px;
 }
-.js-image {
+.sm-image {
   max-width: 33rem;
 }
+
+.md-image {
+  max-width: 37rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .example {
   background-color: rgb(179, 98, 121);
   color:aliceblue
